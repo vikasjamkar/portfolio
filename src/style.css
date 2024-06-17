@@ -297,7 +297,7 @@ footer #footer_title .p {
     background-color: white;
     padding: 20px;
     background: transparent;
-    background-color: #172a45;
+    background-color: rgba(255, 255, 255, 0.4);
     -webkit-backdrop-filter: blur(15px);
             backdrop-filter: blur(15px);
     position: fixed;
