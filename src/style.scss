@@ -320,16 +320,16 @@ footer{
 		justify-content: space-around;
 		background-color: white;
 		padding: 20px;
-		// margin: 20px;
+		margin: 20px;
 		background: transparent;
-		background-color: rgba(255,255,255,0.5);
+		background-color:#172a45;
 		backdrop-filter: blur(15px);
 		position: fixed;
 		bottom: 0%;
 		left: 0%;
 		right: 0%;
 		z-index: 12;
-		// border-radius: 25px;
+		border-radius: 25px;
 
 		#icon{
 			background: none;
@@ -609,7 +609,7 @@ footer{
 		}
 	}
 }
-@media(max-width:1280px){
+@media(min-width:1280px){
 	#about{
 		h2{
 			width: 175px;

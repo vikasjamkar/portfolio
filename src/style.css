@@ -296,8 +296,9 @@ footer #footer_title .p {
     justify-content: space-around;
     background-color: white;
     padding: 20px;
+    margin: 20px;
     background: transparent;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #172a45;
     -webkit-backdrop-filter: blur(15px);
             backdrop-filter: blur(15px);
     position: fixed;
@@ -305,6 +306,7 @@ footer #footer_title .p {
     left: 0%;
     right: 0%;
     z-index: 12;
+    border-radius: 25px;
   }
   #Mobile_nav #icon {
     background: none;
@@ -532,7 +534,7 @@ footer #footer_title .p {
     width: 140px;
   }
 }
-@media (max-width: 1280px) {
+@media (min-width: 1280px) {
   #about h2 {
     width: 175px;
   }
