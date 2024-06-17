@@ -296,7 +296,6 @@ footer #footer_title .p {
     justify-content: space-around;
     background-color: white;
     padding: 20px;
-    margin: 20px;
     background: transparent;
     background-color: #172a45;
     -webkit-backdrop-filter: blur(15px);
@@ -306,7 +305,6 @@ footer #footer_title .p {
     left: 0%;
     right: 0%;
     z-index: 12;
-    border-radius: 25px;
   }
   #Mobile_nav #icon {
     background: none;
