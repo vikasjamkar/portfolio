@@ -1,26 +1,15 @@
-let typed = new Typed(".auto-input", {
-  strings: ["Front-End Developer !"],
-  typedSpeed: 100,
-  backSpeed: 100,
-  backDelay: 2000,
-  loop: true,
+document.addEventListener("DOMContentLoaded", () => {
+  const nav = document.querySelector("#navArrow");
+  const header = document.querySelector("header");
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 50) {
+      nav.style.display = "block";
+      header.style.borderBottom = "1px solid grey";
+    } else {
+      nav.style.display = "none";
+      header.style.background = "";
+      header.style.borderBottom = "";
+    }
+  });
 });
-
 AOS.init();
-
-// var icon = document.getElementById("icon");
-// var body = document.querySelector("body");
-// var a = document.querySelector("a");
-
-// icon.addEventListener("click", function () {
-//   this.classList.toggle("bi-moon");
-//   if (this.classList.toggle("bi-brightness-high-fill")) {
-//     body.style.background = "white";
-//     body.style.transition = "2s";
-//     body.style.color = "black";
-//   } else {
-//     body.style.background = "black";
-//     body.style.color = "white";
-//     body.style.transition = "2s";
-//   }
-// });
