@@ -38,8 +38,6 @@ header{
 	div{
 		background:none;
 	}
-
-
 	a{
 		margin-left: 18px;
 		color: white;
@@ -82,27 +80,33 @@ header{
 }
 
 .nav_container{
- position: fixed;
- display: block;
- top: 11%;
- right: 3%;
- z-index: 12;
- background-color: white;
- width: 300px;
- height: 300px;
- padding: 30px;
- display: flex;
- flex-direction: column;
+	position: fixed;
+	display: block;
+	top: 11%;
+	right: 3%;
+	z-index: 12;
+	background: rgba( 255, 255, 255, 0.55 );
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+	width: 200px;
+	height: 300px;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
 
 
  a{
 	color: black;
-	background-color: white;
+	background:none;
 	text-decoration: none;
 	line-height: 3;
+	text-transform: uppercase;
+	font-weight: 700;
 
 	&:hover{
-		color: #3056d3;
+		color: #64ffda;
 		transition: 0.5s;
 	}
  }
@@ -144,8 +148,15 @@ header{
 				color: #64ffda;
 				border: 1px solid #64ffda;
 				padding: 10px 40px;
-				font-family: fira code;
+				// font-family: fira code;
 				text-decoration: none;
+
+				&:hover{
+					background-color: #64ffda;
+					transition: 0.2s;
+					box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.25 );
+					color: black;
+				}
 			}
 		}
 		.text{
@@ -301,9 +312,12 @@ header{
 			border-radius: 5px;
 
 			&:hover{
-				background-color: #172a45;
-				cursor: pointer;
+				background-color: #111111;
+				transition: 0.2s;
 				border: none;
+				box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.25 );
+				color: black;
+				cursor: pointer;
 
 			}
 
@@ -386,19 +400,16 @@ header{
 			}
 			h5{
 				border-right: 1px solid #c1eee4;
-				color: white;
+				color: #64ffda;
 				padding-right: 5px;
 				font-size: 25px;
 			}
-			h4{
-				color: white;
-			}
+
 			span{
-				color: white;
+				color: #64ffda;
 				text-align: justify;
 				font-size: 17px;
 				line-height: 1.6;
-
 			}
 			.icon{
 				border: 1px solid #64ffda;
@@ -410,8 +421,9 @@ header{
 			}
 			.icon:hover{
 				background-color: #64ffda;
+				transition: 0.2s;
+				box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.25 );
 				color: black;
-
 			}
 			pre{
 				color: #64ffda;
@@ -480,6 +492,13 @@ header{
 			text-decoration: none;
 			border:1px solid #64ffda;
 			padding: 10px 25px;
+
+			&:hover{
+				background-color: #64ffda;
+				transition: 0.2s;
+				box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.25 );
+				color: black;
+			}
 
 		}
 	}

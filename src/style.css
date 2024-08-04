@@ -81,21 +81,26 @@ header a:hover {
   top: 11%;
   right: 3%;
   z-index: 12;
-  background-color: white;
-  width: 300px;
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  width: 200px;
   height: 300px;
   padding: 30px;
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 .nav_container a {
   color: black;
-  background-color: white;
+  background: none;
   text-decoration: none;
   line-height: 3;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 .nav_container a:hover {
-  color: #3056d3;
+  color: #64ffda;
   transition: 0.5s;
 }
 
@@ -136,8 +141,13 @@ header a:hover {
   color: #64ffda;
   border: 1px solid #64ffda;
   padding: 10px 40px;
-  font-family: fira code;
   text-decoration: none;
+}
+.heroBack .hero_info .resume_download a:hover {
+  background-color: #64ffda;
+  transition: 0.2s;
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.25);
+  color: black;
 }
 .heroBack .hero_info .text {
   overflow: hidden;
@@ -278,9 +288,12 @@ header a:hover {
   border-radius: 5px;
 }
 #skills .skill_container .skill_name:hover {
-  background-color: #172a45;
-  cursor: pointer;
+  background-color: #111111;
+  transition: 0.2s;
   border: none;
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.25);
+  color: black;
+  cursor: pointer;
 }
 #skills .skill_container .skill_name h5 {
   background: none;
@@ -351,15 +364,12 @@ header a:hover {
 }
 #Projects .Project_container .project_info h5 {
   border-right: 1px solid #c1eee4;
-  color: white;
+  color: #64ffda;
   padding-right: 5px;
   font-size: 25px;
 }
-#Projects .Project_container .project_info h4 {
-  color: white;
-}
 #Projects .Project_container .project_info span {
-  color: white;
+  color: #64ffda;
   text-align: justify;
   font-size: 17px;
   line-height: 1.6;
@@ -374,6 +384,8 @@ header a:hover {
 }
 #Projects .Project_container .project_info .icon:hover {
   background-color: #64ffda;
+  transition: 0.2s;
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.25);
   color: black;
 }
 #Projects .Project_container .project_info pre {
@@ -438,6 +450,12 @@ header a:hover {
   text-decoration: none;
   border: 1px solid #64ffda;
   padding: 10px 25px;
+}
+#Contact .contact_container a:hover {
+  background-color: #64ffda;
+  transition: 0.2s;
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.25);
+  color: black;
 }
 
 footer {
