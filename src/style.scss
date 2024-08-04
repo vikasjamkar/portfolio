@@ -512,16 +512,31 @@ footer{
 		justify-content: space-between;
 		align-items: center;
 
+
 		div{
 			padding: 5px;
 			a{
 				text-decoration: none;
 				color: white;
+				border: 1px solid orange;
+				text-align: center;
+				height: 100px;
+				padding: 10px;
+				width: 100px;
+				border-radius: 50%;
 
 				&:hover{
-					color: #64ffda;
+					background-color: #64ffda;
+					transition: 0.2s;
+					box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.25 );
+					color: black;
+					border: none;
 				}
 			}
+			h5{
+				text-transform: uppercase;
+			}
+
 
 		}
 
