@@ -470,23 +470,23 @@ footer #footer_container {
 }
 footer #footer_container div {
   padding: 5px;
+  background: none;
 }
 footer #footer_container div a {
   text-decoration: none;
-  color: white;
-  border: 1px solid orange;
-  text-align: center;
   height: 100px;
   padding: 10px;
   width: 100px;
   border-radius: 50%;
+  color: white;
+  border: 1px solid #64ffda;
 }
 footer #footer_container div a:hover {
+  transform: translateY(-10px);
   background-color: #64ffda;
   transition: 0.2s;
   box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.25);
   color: black;
-  border: none;
 }
 footer #footer_container div h5 {
   text-transform: uppercase;
