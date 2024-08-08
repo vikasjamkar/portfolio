@@ -7,6 +7,8 @@
 	background-color: #111111;
 	text-decoration: none;
 }
+$color:#64ffda;
+
 header{
 	display: flex;
 	justify-content: space-between;
@@ -22,7 +24,7 @@ header{
 	i{
 		font-size: 25px;
 		cursor: pointer;
-		background-color: #64ffda;
+		background-color: $color;
 		width: 100px;
 		height: 100px;
 		padding: 6px 8px;
@@ -106,7 +108,7 @@ header{
 	font-weight: 700;
 
 	&:hover{
-		color: #64ffda;
+		color: $color;
 		transition: 0.5s;
 	}
  }
@@ -135,7 +137,7 @@ header{
 
 		h2{
 			font-size: 45px;
-			color: #64ffda;
+			color: $color;
 		}
 		p{
 			line-height: 1.5;
@@ -145,14 +147,13 @@ header{
 		.resume_download{
 			padding: 20px 0px;
 			a{
-				color: #64ffda;
-				border: 1px solid #64ffda;
+				color: $color;
+				border: 1px solid $color;
 				padding: 10px 40px;
-				// font-family: fira code;
 				text-decoration: none;
 
 				&:hover{
-					background-color: #64ffda;
+					background-color: $color;
 					transition: 0.2s;
 					box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.25 );
 					color: black;
@@ -163,8 +164,8 @@ header{
 			overflow: hidden;
 			font-size: 35px;
 			font-weight: 600;
-			border-right: 2px solid #64ffda;
-			color: #64ffda;
+			border-right: 2px solid $color;
+			color: $color;
 			white-space: nowrap;
 			animation: typing 4s steps(40,end) infinite;
 
@@ -206,7 +207,7 @@ header{
 			top: 100%;
 			width: 70%;
 			height: 2px;
-			background-color:#64ffda;
+			background-color:$color;
 			transform: scaleX(0);
 			transition: all 0.6s ease;
 
@@ -221,7 +222,7 @@ header{
 			margin-left: 2px;
 		}
 		 &:hover{
-			color:#64ffda;
+			color:$color;
 		}
 
 
@@ -259,7 +260,7 @@ header{
 #skills{
 	padding: 40px;
 	h3{
-		border-right: 1px solid #64ffda;
+		border-right: 1px solid $color;
 		color: white;
 		padding: 10px;
 	}
@@ -276,7 +277,7 @@ header{
 			top: 100%;
 			width: 80%;
 			height: 2px;
-			background-color:#64ffda;
+			background-color:$color;
 			transform: scaleX(0);
 			transition: all 0.6s ease;
 
@@ -306,10 +307,11 @@ header{
 
 		.skill_name{
 			padding-top: 60px;
-			border: 1px solid #64ffda;
+			border: 1px solid $color;
 			text-align: center;
 			width: 200px;
 			border-radius: 5px;
+
 
 			&:hover{
 				background-color: #111111;
@@ -320,7 +322,6 @@ header{
 				cursor: pointer;
 
 			}
-
 			h5{
 				background: none;
 				color: white;
@@ -330,6 +331,7 @@ header{
 				width: 100px;
 				height:100px;
 				background: none;
+
 			}
 		}
 	}
@@ -339,7 +341,7 @@ header{
 	padding: 40px;
 
 	h3{
-		border-right: 1px solid #64ffda;
+		border-right: 1px solid $color;
 		color: white;
 		padding: 10px;
 	}
@@ -356,7 +358,7 @@ header{
 			top: 100%;
 			width: 90%;
 			height: 2px;
-			background-color:#64ffda;
+			background-color:$color;
 			transform: scaleX(0);
 			transition: all 0.6s ease;
 
@@ -371,7 +373,7 @@ header{
 			margin-left: 2px;
 		}
 		 &:hover{
-			color:#64ffda;
+			color:$color;
 		}
 
 
@@ -400,13 +402,13 @@ header{
 			}
 			h5{
 				border-right: 1px solid #c1eee4;
-				color: #64ffda;
+				color: $color;
 				padding-right: 5px;
 				font-size: 25px;
 			}
 
 			span{
-				color: #64ffda;
+				color: $color;
 				text-align: justify;
 				font-size: 17px;
 				line-height: 1.6;
@@ -420,13 +422,13 @@ header{
 				transition: 0.6s;
 			}
 			.icon:hover{
-				background-color: #64ffda;
+				background-color: $color;
 				transition: 0.2s;
 				box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.25 );
 				color: black;
 			}
 			pre{
-				color: #64ffda;
+				color: $color;
 				font-size: 15px;
 				padding: 10px 0px;
 			}
@@ -436,7 +438,7 @@ header{
 #Contact{
 	padding: 40px;
 	h3{
-		border-right: 1px solid #64ffda;
+		border-right: 1px solid $color;
 		color: white;
 		padding: 10px;
 	}
@@ -453,7 +455,7 @@ header{
 			top: 100%;
 			width: 90%;
 			height: 2px;
-			background-color:#64ffda;
+			background-color:$color;
 			transform: scaleX(0);
 			transition: all 0.6s ease;
 
@@ -468,7 +470,7 @@ header{
 			margin-left: 2px;
 		}
 		 &:hover{
-			color:#64ffda;
+			color:$color;
 		}
 
 
@@ -488,13 +490,13 @@ header{
 			padding-bottom: 15px;
 		}
 		a{
-			color: #64ffda;
+			color: $color;
 			text-decoration: none;
-			border:1px solid #64ffda;
+			border:1px solid $color;
 			padding: 10px 25px;
 
 			&:hover{
-				background-color: #64ffda;
+				background-color: $color;
 				transition: 0.2s;
 				box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.25 );
 				color: black;
@@ -524,11 +526,11 @@ footer{
 				width: 100px;
 				border-radius: 50%;
 				color: white;
-				border: 1px solid #64ffda;
+				border: 1px solid $color;
 
 				&:hover{
 					transform: translateY(-10px);
-					background-color: #64ffda;
+					background-color: $color;
 					transition: 0.2s;
 					box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.25 );
 					color: black;
@@ -550,7 +552,7 @@ footer{
 		a{
 			color: black;
 			font-size: 25px;
-			background-color: #64ffda;
+			background-color: $color;
 			padding: 5px;
 			border-radius: 5px;
 		}
@@ -565,93 +567,21 @@ footer{
 		margin-bottom: 10px;
 
 		.p{
-			color: #64ffda;
+			color: $color;
 		}
 
 	}
 
 }
-@media (max-width:767px){
-	header{
-		display: none;
-	}
-	#Mobile_nav{
-		display: flex;
-		justify-content: space-around;
-		background-color: black;
-		padding: 20px;
-		// margin: 20px;
-		// background: transparent;
-		// background-color:rgba(255,255,255,0.4);
-		// backdrop-filter: blur(15px);
-		position: fixed;
-		bottom: 0%;
-		left: 0%;
-		right: 0%;
-		z-index: 12;
-		border-top: 1px solid lightgrey;
 
 
-		.icon{
-			background: none;
-			font-size: 25px;
-			color:white;
-			text-decoration: none;
 
-			&:hover{
-				color: #64ffda;
-			}
-		}
-	}
-	.heroBack {
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-		padding: 30px;
-		width: 100%;
-		height: 100%;
-		color: white;
 
-		.hero_info {
-			width: 100%;
-			padding: 0px 20px;
 
-			.name {
-				font-size: 35px;
-				font-weight: 700;
-				color: #ccd6f6;
-			}
-			h2 {
-				font-size: 25px;
-				color: #64ffda;
-			}
-			.text{
-				overflow: hidden;
-				font-size: 35px;
-				font-weight: 600;
-				border-right: 2px solid #64ffda;
-				color: #64ffda;
-				white-space: nowrap;
-				animation: typing 4s steps(40,end) infinite;
-
-			}
-			@keyframes typing {
-				from{
-					width: 0;
-				}
-				to{
-					width: 90%;
-				}
-			}
-		}
-		.hero_img {
-			width: 100%;
-		}
-	}
+@media(min-width:1280px){
 	#about{
-
 		h3{
-			border-right: 1px solid #64ffda;
+			border-right: 1px solid $color;
 			color: white;
 			padding: 6px;
 		}
@@ -666,9 +596,9 @@ footer{
 				content: "";
 				position: absolute;
 				top: 100%;
-				width: 90%;
+				width: 100%;
 				height: 2px;
-				background-color:#64ffda;
+				background-color:$color;
 				transform: scaleX(0);
 				transition: all 0.6s ease;
 
@@ -683,32 +613,71 @@ footer{
 				margin-left: 2px;
 			}
 			 &:hover{
-				color:#64ffda;
+				color:$color;
 			}
 
 
 		}
 
-		.about_container {
+	}
+	#skills{
+		.skill_container {
 			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			flex-wrap: wrap;
 			gap: 30px;
-			width: 100%;
-			height: 100%;
-			padding: 0px;
-
-			.about_img {
-				width: 100%;
-				img{
-					width: 100%;
-				}
-			}
-			.about_info{
-				width: 100%;
-			}
 		}
+	}
+}
+@media (min-width:1024px) and (max-width:1279px){
+	.heroBack {
+		display: flex;
+		align-items: center;
+		padding: 30px;
+		width: 100%;
+		height: 100%;
+		color: white;
+		margin-top: 35px;
+	}
+	#about {
+		h3{
+			border-right: 1px solid $color;
+			color: white;
+			padding: 6px;
+		}
+		h2{
+			color: white;
+			text-transform: uppercase;
+			font-size: 20px;
+			margin-left: 10px;
+			position: relative;
+
+			&::before{
+				content: "";
+				position: absolute;
+				top: 100%;
+				width: 100%;
+				height: 2px;
+				background-color:$color;
+				transform: scaleX(0);
+				transition: all 0.6s ease;
+
+			}
+			&::before{
+				bottom: 0;
+				left: 0;
+
+			}
+			&:hover::before{
+				transform: scale(1);
+				margin-left: 2px;
+			}
+			 &:hover{
+				color:$color;
+			}
+
+
+		}
+
 	}
 	#skills{
 		h3{
@@ -727,9 +696,9 @@ footer{
 				content: "";
 				position: absolute;
 				top: 100%;
-				width: 90%;
+				width: 100%;
 				height: 2px;
-				background-color:#64ffda;
+				background-color:$color;
 				transform: scaleX(0);
 				transition: all 0.6s ease;
 
@@ -744,20 +713,19 @@ footer{
 				margin-left: 2px;
 			}
 			 &:hover{
-				color:#64ffda;
+				color:$color;
 			}
 
 
 		}
 		.skill_container {
-			display: flex;
-			flex-wrap: wrap;
-			flex-direction: column;
+			display: grid;
+			grid-template-columns: repeat(3,auto);
 			gap: 30px;
-			align-items: center;
-			padding: 30px 20px;
+			padding: 30px 0px;
 		}
 	}
+
 	#Projects{
 		h3{
 			border-right: 1px solid #64ffda;
@@ -775,9 +743,9 @@ footer{
 				content: "";
 				position: absolute;
 				top: 100%;
-				width: 90%;
+				width: 100%;
 				height: 2px;
-				background-color:#64ffda;
+				background-color:$color;
 				transform: scaleX(0);
 				transition: all 0.6s ease;
 
@@ -792,41 +760,17 @@ footer{
 				margin-left: 2px;
 			}
 			 &:hover{
-				color:#64ffda;
+				color:$color;
 			}
 
 
 		}
-		.Project_container {
-			display: flex;
-			flex-wrap: wrap;
-			flex-direction: column;
-			gap: 30px;
-			width: 100%;
-			height: 100%;
-			padding: 50px 10px;
 
-			.project_img {
-				width: 100%;
-				margin-top: 30px;
-
-				img{
-					width: 100%;
-				}
-			}
-			.project_info {
-				padding-top: 10px;
-				width: 100%;
-
-				span{
-					text-align: justify;
-				}
-			}
-		}
 	}
-	#Contact {
+
+	#Contact{
 		h3{
-			border-right: 1px solid #64ffda;
+			border-right: 1px solid $color;
 			color: white;
 			padding: 6px;
 		}
@@ -841,9 +785,9 @@ footer{
 				content: "";
 				position: absolute;
 				top: 100%;
-				width: 90%;
+				width: 100%;
 				height: 2px;
-				background-color:#64ffda;
+				background-color:$color;
 				transform: scaleX(0);
 				transition: all 0.6s ease;
 
@@ -858,48 +802,10 @@ footer{
 				margin-left: 2px;
 			}
 			 &:hover{
-				color:#64ffda;
+				color:$color;
 			}
 
 
-		}
-		.contact_container{
-			p {
-				width: 100%;
-				text-align: center;
-				line-height: 1.5;
-				font-size: 17px;
-				padding-bottom: 15px;
-			}
-		}
-	}
-	footer{
-		#footer_container{
-			display:none;
-		}
-		#navArrow{
-			position: fixed;
-			right: 5%;
-			bottom: 15%;
-
-			a{
-				color: black;
-				font-size: 25px;
-				background-color: #64ffda;
-				padding: 5px;
-				border-radius: 5px;
-			}
-		}
-
-		#footer_container_mobile{
-			display: flex;
-			justify-content: center;
-
-			a{
-				color: white;
-				text-decoration: none;
-				margin-right: 20px;
-			}
 		}
 	}
 }
@@ -916,7 +822,7 @@ footer{
 	#about{
 
 		h3{
-			border-right: 1px solid #64ffda;
+			border-right: 1px solid $color;
 			color: white;
 			padding: 6px;
 		}
@@ -933,7 +839,7 @@ footer{
 				top: 100%;
 				width: 100%;
 				height: 2px;
-				background-color:#64ffda;
+				background-color:$color;
 				transform: scaleX(0);
 				transition: all 0.6s ease;
 
@@ -948,7 +854,7 @@ footer{
 				margin-left: 2px;
 			}
 			 &:hover{
-				color:#64ffda;
+				color:$color;
 			}
 
 
@@ -969,6 +875,7 @@ footer{
 
 				img{
 					width:500px;
+					height: 300px;
 
 				}
 			}
@@ -997,7 +904,7 @@ footer{
 				top: 100%;
 				width: 90%;
 				height: 2px;
-				background-color:#64ffda;
+				background-color:$color;
 				transform: scaleX(0);
 				transition: all 0.6s ease;
 
@@ -1012,7 +919,7 @@ footer{
 				margin-left: 2px;
 			}
 			 &:hover{
-				color:#64ffda;
+				color:$color;
 			}
 
 
@@ -1044,7 +951,7 @@ footer{
 				top: 100%;
 				width: 90%;
 				height: 2px;
-				background-color:#64ffda;
+				background-color:$color;
 				transform: scaleX(0);
 				transition: all 0.6s ease;
 
@@ -1059,7 +966,7 @@ footer{
 				margin-left: 2px;
 			}
 			 &:hover{
-				color:#64ffda;
+				color:$color;
 			}
 
 
@@ -1107,7 +1014,7 @@ footer{
 				top: 100%;
 				width: 90%;
 				height: 2px;
-				background-color:#64ffda;
+				background-color:$color;
 				transform: scaleX(0);
 				transition: all 0.6s ease;
 
@@ -1122,24 +1029,96 @@ footer{
 				margin-left: 2px;
 			}
 			 &:hover{
-				color:#64ffda;
+				color:$color;
 			}
 
 
 		}
 	}
 }
-@media (min-width:1024px) and (max-width:1279px){
+@media (max-width:767px){
+	header{
+		display: none;
+	}
+	#Mobile_nav{
+		display: flex;
+		justify-content: space-around;
+		background-color: black;
+		padding: 20px;
+		position: fixed;
+		bottom: 0%;
+		left: 0%;
+		right: 0%;
+		z-index: 12;
+		border-top: 1px solid lightgrey;
+
+
+		.icon{
+			background: none;
+			font-size: 25px;
+			color:white;
+			text-decoration: none;
+
+			&:hover{
+				color: $color;
+			}
+		}
+	}
 	.heroBack {
 		display: flex;
+		flex-wrap: wrap;
 		align-items: center;
 		padding: 30px;
 		width: 100%;
 		height: 100%;
 		color: white;
-		margin-top: 35px;
+
+		.hero_info {
+			width: 100%;
+			padding: 0px 20px;
+
+			.name {
+				font-size: 35px;
+				font-weight: 700;
+				color: #ccd6f6;
+			}
+			h2 {
+				font-size: 25px;
+				color: $color;
+			}
+			.text{
+				overflow: hidden;
+				font-size: 35px;
+				font-weight: 600;
+				border-right: 2px solid $color;
+				color: $color;
+				white-space: nowrap;
+				animation: typing 4s steps(40,end) infinite;
+
+			}
+			@keyframes typing {
+				from{
+					width: 0;
+				}
+				to{
+					width: 90%;
+				}
+			}
+			p {
+				line-height: 1.5;
+				font-size: 17px;
+				text-align: justify;
+				word-wrap: break-word;
+				word-break: break-all;
+
+			}
+		}
+		.hero_img {
+			width: 100%;
+		}
 	}
-	#about {
+	#about{
+
 		h3{
 			border-right: 1px solid #64ffda;
 			color: white;
@@ -1156,9 +1135,9 @@ footer{
 				content: "";
 				position: absolute;
 				top: 100%;
-				width: 100%;
+				width: 90%;
 				height: 2px;
-				background-color:#64ffda;
+				background-color:$color;
 				transform: scaleX(0);
 				transition: all 0.6s ease;
 
@@ -1173,12 +1152,42 @@ footer{
 				margin-left: 2px;
 			}
 			 &:hover{
-				color:#64ffda;
+				color:$color;
 			}
 
 
 		}
 
+		.about_container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			gap: 30px;
+			width: 100%;
+			height: 100%;
+			padding: 0px;
+
+			.about_img {
+				width: 100%;
+				img{
+					width: 100%;
+					height: 200px;
+				}
+			}
+			.about_info{
+				width: 100%;
+
+				p {
+					line-height: 1.5;
+					font-size: 18px;
+					text-align: justify;
+					word-wrap: break-word;
+					word-break: break-all;
+
+				}
+			}
+		}
 	}
 	#skills{
 		h3{
@@ -1197,9 +1206,9 @@ footer{
 				content: "";
 				position: absolute;
 				top: 100%;
-				width: 100%;
+				width: 90%;
 				height: 2px;
-				background-color:#64ffda;
+				background-color:$color;
 				transform: scaleX(0);
 				transition: all 0.6s ease;
 
@@ -1214,19 +1223,20 @@ footer{
 				margin-left: 2px;
 			}
 			 &:hover{
-				color:#64ffda;
+				color:$color;
 			}
 
 
 		}
 		.skill_container {
-			display: grid;
-			grid-template-columns: repeat(3,auto);
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column;
 			gap: 30px;
-			padding: 30px 0px;
+			align-items: center;
+			padding: 30px 20px;
 		}
 	}
-
 	#Projects{
 		h3{
 			border-right: 1px solid #64ffda;
@@ -1244,9 +1254,9 @@ footer{
 				content: "";
 				position: absolute;
 				top: 100%;
-				width: 100%;
+				width: 90%;
 				height: 2px;
-				background-color:#64ffda;
+				background-color:$color;
 				transform: scaleX(0);
 				transition: all 0.6s ease;
 
@@ -1261,15 +1271,44 @@ footer{
 				margin-left: 2px;
 			}
 			 &:hover{
-				color:#64ffda;
+				color:$color;
 			}
 
 
 		}
+		.Project_container {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column;
+			gap: 30px;
+			width: 100%;
+			height: 100%;
+			padding: 50px 10px;
 
+			.project_img {
+				width: 100%;
+				margin-top: 30px;
+
+				img{
+					width: 100%;
+				}
+			}
+			.project_info {
+				padding-top: 10px;
+				width: 100%;
+
+				p {
+					line-height: 1.5;
+					font-size: 17px;
+					text-align: justify;
+					word-wrap: break-word;
+					word-break: break-all;
+
+				}
+			}
+		}
 	}
-
-	#Contact{
+	#Contact {
 		h3{
 			border-right: 1px solid #64ffda;
 			color: white;
@@ -1286,9 +1325,9 @@ footer{
 				content: "";
 				position: absolute;
 				top: 100%;
-				width: 100%;
+				width: 90%;
 				height: 2px;
-				background-color:#64ffda;
+				background-color:$color;
 				transform: scaleX(0);
 				transition: all 0.6s ease;
 
@@ -1303,60 +1342,97 @@ footer{
 				margin-left: 2px;
 			}
 			 &:hover{
-				color:#64ffda;
+				color:$color;
 			}
 
 
+		}
+		.contact_container{
+			p {
+				width: 100%;
+				text-align: center;
+				line-height: 1.5;
+				font-size: 17px;
+				padding-bottom: 15px;
+			}
+		}
+	}
+	footer{
+		#footer_container{
+			display:none;
+		}
+		#navArrow{
+			position: fixed;
+			right: 5%;
+			bottom: 15%;
+
+			a{
+				color: black;
+				font-size: 25px;
+				background-color: $color;
+				padding: 5px;
+				border-radius: 5px;
+			}
+		}
+
+		#footer_container_mobile{
+			display: flex;
+			justify-content: center;
+
+			a{
+				color: white;
+				text-decoration: none;
+				margin-right: 20px;
+			}
 		}
 	}
 }
-@media(min-width:1280px){
-	#about{
-		h3{
-			border-right: 1px solid #64ffda;
-			color: white;
-			padding: 6px;
-		}
-		h2{
-			color: white;
-			text-transform: uppercase;
-			font-size: 20px;
-			margin-left: 10px;
-			position: relative;
-
-			&::before{
-				content: "";
-				position: absolute;
-				top: 100%;
-				width: 100%;
-				height: 2px;
-				background-color:#64ffda;
-				transform: scaleX(0);
-				transition: all 0.6s ease;
-
+@media(max-width:331px){
+	.heroBack{
+		padding: 5px;
+		 .hero_info {
+			p {
+				line-height: 1.5;
+				font-size: 15px;
+				text-align: justify;
+				word-wrap: break-word;
+					word-break: break-all;
 			}
-			&::before{
-				bottom: 0;
-				left: 0;
-
+			.name {
+				font-size: 20px;
+				font-weight: 700;
+				color: #ccd6f6;
 			}
-			&:hover::before{
-				transform: scale(1);
-				margin-left: 2px;
-			}
-			 &:hover{
-				color:#64ffda;
-			}
-
-
-		}
-
+		 }
 	}
-	#skills{
-		.skill_container {
-			display: flex;
-			flex-wrap: wrap;
-			gap: 30px;
+	#about {
+	 padding: 0px 5px;
+		.about_container {
+			.about_info{
+				p {
+					color: white;
+					font-size: 15px;
+					line-height: 1.5;
+					text-align: justify;
+					word-wrap: break-word;
+					word-break: break-all;
+				}
+			}
 		}
+	}
+	#Projects {
+		 padding: 4px;
+		 .Project_container {
+			.project_info {
+				p {
+					color: white;
+					text-align: justify;
+					// line-height: 1.5;
+					word-wrap: break-word;
+					word-break: break-all;
+				}
+			}
+
+		 }
 	}
 }
